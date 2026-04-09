@@ -2,5 +2,6 @@
 
 const style = import.meta.glob([
   './**/*.scss',
-  '../shared/**/*.scss'
+  '../shared/**/*.scss',
+  '../features/**/*.scss',
 ], { eager: true });

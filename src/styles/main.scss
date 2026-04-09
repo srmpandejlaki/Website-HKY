@@ -8,9 +8,30 @@ body {
 }
 
 .button {
-  @include custom.button-style;
+  @include button-style;
 }
 
 .title {
   font-size: 1rem;
+}
+
+//header
+.header {
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo-hky {
+  width: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }

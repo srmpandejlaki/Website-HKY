@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: $tertiary-color;
+}
+
 .button {
   @include button-style;
 }
@@ -34,4 +39,37 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+//footer
+.footer {
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  padding: 10px 20px;
+
+  .logo-hky {
+    width: 60px;
+  }
+}
+
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.middle-footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+// .social-media {
+//   width: 150px;
+// }
+
+.yellow-line {
+  height: 1px;
+  background-color: $tertiary-color;
 }

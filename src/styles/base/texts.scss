@@ -1,0 +1,7 @@
+@use '../abstracts/variables.scss' as *;
+@use '../abstracts/mixins.scss' as *;
+
+.title {
+  font-size: 1.5rem;
+  color: $quaternary-color;
+}

@@ -1,0 +1,17 @@
+@use '../../../styles/abstracts/variables.scss' as *;
+@use '../../../styles/abstracts/mixins.scss' as *;
+
+.profilsejarah-section {
+  padding: 0 0 0 20px;
+}
+
+.profil-paroki {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  .image-profil img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

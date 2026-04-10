@@ -1,5 +1,6 @@
 import React from "react";
 import ProfilParoki from "../components/profil&sejarah/ProfilParoki";
+import SejarahParoki from "../components/profil&sejarah/SejarahParoki";
 
 function ProfilSejarah() {
   return (
@@ -7,6 +8,8 @@ function ProfilSejarah() {
       <ProfilParoki />
       
       <div className="yellow-line"></div>
+
+      <SejarahParoki />
     </div>
   );  
 }

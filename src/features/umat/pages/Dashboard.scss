@@ -18,27 +18,46 @@
     inset: 0;
     background: rgba(255, 255, 255, 0.8); // putih transparan
   }
+}
 
-  // sabda kehidupan - section
-  .content {
-    position: relative; // biar di atas overlay
+// sabda kehidupan - section
+.content {
+  position: relative; // biar di atas overlay
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: stretch;
+  height: 100%;
+
+  .image {
+    width: 25%;
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    align-items: stretch;
-    height: 100%;
+    justify-content: center;
+    align-items: end;
 
-    .image {
-      width: 25%;
-      display: flex;
-      justify-content: center;
-
-      img {
-        height: 100%;
-        max-height: 500px; 
-        object-fit: contain; // biar ga kepotong
-      }
+    img {
+      height: 100%;
+      max-height: 550px; 
+      object-fit: contain; // biar ga kepotong
     }
+  }
+}
+.layer-pertama {
+  display: flex;
+  justify-content: space-between;
+
+  div h2 {
+    color: $secondary-color;
+    margin-bottom: 0;
+  }
+
+  div p {
+    margin: 0;
+  }
+  
+  .header-sabda-kehidupan {
+    font-weight: bold;
+    padding-top: 0.5rem;
   }
 }
 

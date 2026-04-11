@@ -3,7 +3,17 @@ import React from "react";
 function SabdaKehidupanSection() {
   return (
     <section className="sabda-kehidupan-section">
-      <h2 className="section-title">Sabda Kehidupan</h2>
+      <div className="layer-pertama">
+        <div>
+          <h2 className="section-title">Sabda Kehidupan</h2>
+          <p>Minggu 22 Februari 2026 | Minggu Pra-Paskah I</p>
+        </div>
+        <p className="header-sabda-kehidupan">Cinta Kepada Allah Menguatkan Kita Menolak Godaan Iblis</p>
+      </div>
+      <div className="layer-kedua">
+        <p>Maka berkatalah Yesus kepadanya: "Enyahlah, Iblis! Sebab ada tertulis: Engkau harus menyembah Tuhan, Allahmu, dan hanya kepada Dia sajalah engkau berbakti!"</p>
+        <p>Matius 4:10 (Mat 4:1-11)</p>
+      </div>
       <p className="text">
         Bacaan Injil hari ini mengisahkan pencobaan Yesus oleh Iblis di padang gurun. Dalam keadaan yang sangat lapar sesudah berpuasa 40 hari, Yesus digoda untuk menggunakan kuasa dan kemampuan yang ada padaNya sebagai Putra Allah untuk memuaskan dorongan hawa nafsu dalam diriNya.
         Godaan pertama, memilih jalan pintas dan instan dengan merubah batu menjadi roti demi mengatasi rasa laparNya. Ke dua, Yesus digoda untuk menunjukkan betapa hebatnya Dia sehingga tak pernah akan celaka dan terantuk pada apapun. Ke tiga, godaan menjadi penguasa dunia dan memiliki semua kerajaan di dunia ini.
@@ -15,6 +25,8 @@ function SabdaKehidupanSection() {
         Yesus tak pernah kekurangan cinta BapaNya. Ia tak perlu memuaskan laparNya sendiri. Ia tak perlu membuktikan kehebatanNya di hadapan Iblis dengan mencobai kecintaan Bapa kepadaNya. Yesus tak perlu menguasai semua kerajaan di dunia karena semua kuasa di surga dan di dunia telah diserahkan Bapa kepadaNya.
         Maka Yesus dengan tegas mengusir Iblis yang ingin memisahkan Dia dari cintaNya kepada BapaNya.
         <br /><br />
+        Selamat Hari Minggu Prapaskah I. Mari menyembah Tuhan di baitNya yang kudus.🙏❤️😇 <br />
+        Ps Revi Tanod Pr
       </p>
     </section>
   );

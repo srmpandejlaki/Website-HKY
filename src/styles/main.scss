@@ -5,11 +5,16 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: $quaternary-color;
 }
 
 a {
   text-decoration: none;
   color: $tertiary-color;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 //header

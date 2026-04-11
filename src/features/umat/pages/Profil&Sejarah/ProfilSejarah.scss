@@ -1,5 +1,5 @@
-@use '../../../styles/abstracts/variables.scss' as *;
-@use '../../../styles/abstracts/mixins.scss' as *;
+@use '../../../../styles/abstracts/mixins.scss' as *;
+@use '../../../../styles/abstracts/variables.scss' as *;
 
 .profilsejarah-section {
 }
@@ -8,9 +8,13 @@
   padding: 0 0 0 20px;
   display: grid;
   grid-template-columns: 2fr 1fr;
-
-  .image-profil img {
+  
+  .image-profil {
     height: 300px;
+  }
+  
+  img {
+    height: 100%;
     width: 100%;
     object-fit: cover;
   }

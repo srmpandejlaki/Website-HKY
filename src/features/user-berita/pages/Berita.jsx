@@ -1,5 +1,5 @@
 import React from "react";
-import FotoHKY from "../../../assets/images/gereja-hky3.jpeg";
+import FotoHKY from "@/assets/images/gereja-hky3.jpeg";
 
 function Berita() {
   return (

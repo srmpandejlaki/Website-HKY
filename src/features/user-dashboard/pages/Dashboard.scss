@@ -1,5 +1,5 @@
-@use '../../../styles/abstracts/variables.scss' as *;
-@use '../../../styles/abstracts/mixins.scss' as *;
+@use '@/styles/abstracts/variables.scss' as *;
+@use '@/styles/abstracts/mixins.scss' as *;
 
 .hero-section {
   position: relative;
@@ -28,6 +28,7 @@
   gap: 50px;
   align-items: stretch;
   height: 100%;
+  padding-top: 1.5rem;
 
   .image {
     width: 25%;

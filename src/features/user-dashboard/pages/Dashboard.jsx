@@ -1,5 +1,5 @@
 import React from "react";
-import GambarPastor from "../../../assets/images/foto-pastor.png";
+import GambarPastor from "@/assets/images/foto-pastor.png";
 import SabdaKehidupanSection from "../components/SabdaKehidupanSection";
 import Jadwal from "../components/Jadwal";
 import InfoParoki from "../components/InfoParoki";

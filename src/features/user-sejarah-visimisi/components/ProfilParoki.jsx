@@ -1,5 +1,5 @@
 import React from "react";
-import GambarHKY from "../../../../assets/images/gereja-hky3.jpeg";
+import GambarHKY from "../../../assets/images/gereja-hky3.jpeg";
 
 function ProfilParoki() {
   return (

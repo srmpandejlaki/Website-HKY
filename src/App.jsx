@@ -1,8 +1,8 @@
 import { Route, Routes, Navigate } from "react-router-dom";
 import MainLayout from "./shared/layouts/MainLayout/MainLayout";
-import DashboardUmat from "./features/umat/pages/Dashboard";
-import ProfilSejarah from "./features/umat/pages/Profil&Sejarah/ProfilSejarah";
-import Berita from "./features/umat/pages/Artikel/Berita";
+import DashboardUmat from "./features/user-dashboard/pages/Dashboard";
+import ProfilSejarah from "./features/user-sejarah-visimisi/pages/ProfilSejarah";
+import Berita from "./features/user-berita/pages/Berita";
 
 function App() {
 

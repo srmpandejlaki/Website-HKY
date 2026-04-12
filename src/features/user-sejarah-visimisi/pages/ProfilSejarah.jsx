@@ -1,6 +1,6 @@
 import React from "react";
-import ProfilParoki from "../../components/profil&sejarah/ProfilParoki";
-import SejarahParoki from "../../components/profil&sejarah/SejarahParoki";
+import ProfilParoki from "../components/ProfilParoki";
+import SejarahParoki from "../components/SejarahParoki";
 
 function ProfilSejarah() {
   return (

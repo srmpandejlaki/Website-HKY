@@ -68,10 +68,10 @@
     min-height: 200px;
     background-color: #f5f5f5;
     border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
     
     &:hover {
       background-color: #e0e0e0;
-      transition: background-color 0.3s ease;
     }
   }
   
@@ -100,7 +100,7 @@
   &-judul {
     font-size: 0.8rem;
     font-weight: bold;
-    background-color: $tertiary-color ;
+    background-color: rgb(242, 186, 2, 0.5);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     text-align: center;

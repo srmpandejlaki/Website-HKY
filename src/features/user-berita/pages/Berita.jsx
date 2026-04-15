@@ -1,5 +1,6 @@
 import React from "react";
 import FotoHKY from "@/assets/images/gereja-hky3.jpeg";
+import TemplateSubBerita from "../components/TemplateSubBerita";
 
 function Berita() {
   return (
@@ -39,14 +40,14 @@ function Berita() {
 
       <div className="yellow-line-bold"></div>
 
-      <div className="berita-lain">
-        <h3 className="berita-lain-title">Berita Lainnya</h3>
-        <ul className="berita-lain-list">
-          <li className="berita-lain-item">Berita 1: Kegiatan Sosial Paroki HKY Tomohon</li>
-          <li className="berita-lain-item">Berita 2: Perayaan Hari Raya di Paroki HKY Tomohon</li>
-          <li className="berita-lain-item">Berita 3: Program Pendidikan Iman di Paroki HKY Tomohon</li>
-        </ul>
+      <div className="sub-berita">
+        <h2 className="sub-berita-title">Berita Lainnya</h2>
         
+        <div className="sub-berita-section">
+          <TemplateSubBerita />
+          <TemplateSubBerita />
+          <TemplateSubBerita />
+        </div>
       </div>
       {/* Konten berita akan ditempatkan di sini */}
     </div>

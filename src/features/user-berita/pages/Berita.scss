@@ -32,9 +32,8 @@
   &-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
-
+  
   &-judul {
     font-size: 1rem;
     font-weight: bold;
@@ -66,7 +65,7 @@
   
   &-item {
     display: flex;
-    height: 200px;
+    min-height: 200px;
     background-color: #f5f5f5;
     border-radius: 0.5rem;
     
@@ -78,6 +77,7 @@
   
   &-image img {
     width: 200px;
+    height: 100%;
     object-fit: cover;
     border-radius: 0.5rem 0 0 0.5rem;
     margin-bottom: 1rem;
@@ -103,6 +103,7 @@
     background-color: $tertiary-color ;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
+    text-align: center;
   }
   
   &-judul, &-tanggal {

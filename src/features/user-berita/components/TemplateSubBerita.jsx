@@ -14,7 +14,7 @@ function TemplateSubBerita() {
         <p className="sub-berita-deskripsi">
           Gereja Katolik Hati Kudus Yesus (HKY) Tomohon merupakan salah satu paroki Katolik tertua dan penting di wilayah Kota Tomohon, 
           Sulawesi Utara. Perkembangan Gereja Katolik di Tomohon tidak terlepas dari karya misi para imam dan biarawan yang datang ke wilayah 
-          Minahasa pada akhir abad ke-19 hingga awal abad ke-20.
+          Minahasa pada akhir abad ke-19 hingga awal abad ke-20. 
         </p>
         <div className="sub-berita-footer">
           <a href="#" className="sub-berita-readmore">Baca Selengkapnya</a>

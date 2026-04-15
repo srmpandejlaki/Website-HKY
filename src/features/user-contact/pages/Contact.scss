@@ -1,0 +1,22 @@
+@use '@/styles/abstracts/mixins.scss' as *;
+@use '@/styles/abstracts/variables.scss' as *;
+
+.contact {
+
+  &-section {
+    padding: 0 2rem 2rem;
+  }
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-number {
+    width: 500px;
+  }
+
+  &-medsos a {
+    color: $quaternary-color;
+  }
+}

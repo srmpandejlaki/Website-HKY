@@ -23,3 +23,8 @@ config
 *.njsproj
 *.sln
 *.sw?
+
+# backend
+venv
+.env
+__pycache__

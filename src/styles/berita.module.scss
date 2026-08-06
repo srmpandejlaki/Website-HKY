@@ -1,0 +1,130 @@
+@use './abstracts/mixins' as *;
+@use './abstracts/variables' as *;
+
+.berita {
+  &-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  &-utama {
+    padding: 1rem 5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  &-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-judul {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: $tertiary-color;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    width: fit-content;
+  }
+
+  &-judul, &-tanggal {
+    margin-block: 0;
+  }
+}
+
+.sub-berita {
+  padding-inline: 2rem;
+
+  &-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  &-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    padding-block: 2rem;
+    gap: 1.5rem;
+  }
+
+  &-item {
+    display: flex;
+    min-height: 200px;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  }
+
+  &-image img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem 0 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 1rem;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-judul {
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: rgb(242, 186, 2, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+
+  &-judul, &-tanggal {
+    margin-block: 0;
+  }
+
+  &-deskripsi {
+    font-size: 0.8rem;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      font-size: 0.8rem;
+      color: $quaternary-color;
+      border: 1px solid $quaternary-color;
+      padding: 0.25rem 0.5rem;
+      border-radius: 2rem;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+@use './base/texts';
+
+/* ===== Reset & Base ===== */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $quaternary-color;
+}
+
+a {
+  text-decoration: none;
+  color: $tertiary-color;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+/* ===== Header ===== */
+.header {
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logoHky {
+  width: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: $secondary-color;
+  color: $tertiary-color;
+  padding: 10px 20px;
+
+  .logoHky {
+    width: 60px;
+  }
+}
+
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.middleFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+/* ===== Dividers ===== */
+.yellowLine {
+  height: 1px;
+  background-color: $tertiary-color;
+}
+
+.yellowLineBold {
+  height: 1.3rem;
+  background-color: $tertiary-color;
+  padding: 0;
+}

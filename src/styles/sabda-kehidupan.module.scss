@@ -1,0 +1,88 @@
+@use './abstracts/mixins' as *;
+@use './abstracts/variables' as *;
+
+.sabda-kehidupan {
+  &-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  &-utama {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem 5rem;
+  }
+
+  &-image img {
+    width: 200px;
+    border-radius: 15rem;
+    border: 3px solid $quaternary-color;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-judul, &-tanggal {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.sub-sabda-kehidupan {
+  padding-inline: 2rem;
+
+  &-item {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  }
+
+  &-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-judul, &-tanggal {
+    margin: 0;
+    padding: 0;
+  }
+
+  &-judul {
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: rgb(242, 186, 2, 0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      font-size: 0.8rem;
+      color: $quaternary-color;
+      border: 1px solid $quaternary-color;
+      padding: 0.25rem 0.5rem;
+      border-radius: 2rem;
+    }
+  }
+}

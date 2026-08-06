@@ -1,0 +1,30 @@
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+
+// public navigation styles
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 25px;
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+
+    a {
+      font-weight: bold;
+      font-size: 0.8rem;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &.active {
+        color: $primary-color;
+      }
+    }
+  }
+}

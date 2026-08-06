@@ -1,16 +1,11 @@
-/**
- * Halaman Contact (/contact)
- *
- * Penjelasan:
- * - Menampilkan informasi kontak dan peta lokasi gereja
- * - iframe Google Maps tetap bisa digunakan di Next.js
- */
+import styles from "@/styles/contact.module.scss";
+
 export default function ContactPage() {
   return (
-    <div className="contact-section">
-      <h2 className="contact-title">Contact Us</h2>
-      <div className="contact-main">
-        <div className="contact-number">
+    <div className={styles["contact-section"]}>
+      <h2 className={styles["contact-title"]}>Hubungi Kami</h2>
+      <div className={styles["contact-main"]}>
+        <div className={styles["contact-number"]}>
           <p>HUBUNGI KAMI MELALUI</p>
           <ul>
             <li>Email: info_hky.tomohon@go.id</li>
@@ -21,7 +16,7 @@ export default function ContactPage() {
             </li>
           </ul>
         </div>
-        <div className="contact-medsos">
+        <div className={styles["contact-medsos"]}>
           <p>IKUTI AKUN SOSIAL MEDIA KAMI</p>
           <ul>
             <li>
@@ -45,8 +40,8 @@ export default function ContactPage() {
           </ul>
         </div>
       </div>
-      <div className="map-container">
-        <h3 className="map-title">
+      <div className={styles["map-container"]}>
+        <h3 className={styles["map-title"]}>
           Lokasi Gereja Hati Kudus Yesus Tomohon
         </h3>
         <a

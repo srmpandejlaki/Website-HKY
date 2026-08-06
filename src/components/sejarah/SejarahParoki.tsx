@@ -1,11 +1,9 @@
-/**
- * Komponen SejarahParoki
- * Menampilkan sejarah Paroki Hati Kudus Yesus Tomohon.
- */
+import styles from "@/styles/profil-sejarah.module.scss";
+
 export default function SejarahParoki() {
   return (
-    <div className="sejarah-paroki-section">
-      <h2 className="title">Sejarah Paroki Hati Kudus Yesus Tomohon</h2>
+    <div className={styles["sejarah-paroki-section"]}>
+      <h2 className={styles["title"]}>Sejarah Paroki Hati Kudus Yesus Tomohon</h2>
       <p>
         Gereja Katolik Hati Kudus Yesus (HKY) Tomohon merupakan salah satu
         paroki Katolik tertua dan penting di wilayah Kota Tomohon, Sulawesi

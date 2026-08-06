@@ -60,7 +60,16 @@ p {
 .middleFooter {
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.contacts p {
+  display: flex;
+  // gap: 10px;
+}
+.contacts p span:first-child {
+  width: 65px;
 }
 
 /* ===== Dividers ===== */

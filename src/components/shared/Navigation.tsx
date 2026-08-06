@@ -24,8 +24,13 @@ export default function Navigation() {
           </Link>
         </li>
         <li className="nav-links">
+          <Link href="/berita" className={pathname === "/berita" ? "active" : ""}>
+            <i className="fa-solid fa-newspaper"></i> Berita
+          </Link>
+        </li>
+        <li className="nav-links">
           <Link href="/sabda-kehidupan" className={pathname === "/sabda-kehidupan" ? "active" : ""}>
-            <i className="fa-solid fa-newspaper"></i> Artikel
+            <i className="fa-solid fa-newspaper"></i> Sabda Kehidupan
           </Link>
         </li>
         <li className="nav-links">

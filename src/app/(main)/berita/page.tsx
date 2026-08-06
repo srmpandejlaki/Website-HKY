@@ -1,19 +1,14 @@
 import Image from "next/image";
 import TemplateSubBerita from "@/components/berita/TemplateSubBerita";
 
-/**
- * Halaman Berita (/berita)
- *
- * Penjelasan:
- * - Ini menampilkan berita utama dan daftar berita lainnya
- * - TemplateSubBerita digunakan berulang untuk setiap item berita
- */
+import styles from "@/styles/berita.module.scss";
+
 export default function BeritaPage() {
   return (
-    <div className="styles.berita-page">
-      <h2 className="berita-title">Berita Paroki</h2>
-      <div className="berita-utama">
-        <div className="berita-image">
+    <div className={styles["berita-page"]}>
+      <h2 className={styles["berita-title"]}>Berita Paroki</h2>
+      <div className={styles["berita-utama"]}>
+        <div className={styles["berita-image"]}>
           <Image
             src="/images/gereja-hky3.jpeg"
             alt="Foto HKY"
@@ -22,12 +17,12 @@ export default function BeritaPage() {
             style={{ objectFit: "cover", borderRadius: "0.5rem" }}
           />
         </div>
-        <div className="berita-content">
-          <div className="berita-header">
-            <h3 className="berita-judul">Judul Berita Utama</h3>
-            <p className="berita-tanggal">23 Februari 2026</p>
+        <div className={styles["berita-content"]}>
+          <div className={styles["berita-header"]}>
+            <h3 className={styles["berita-judul"]}>Judul Berita Utama</h3>
+            <p className={styles["berita-tanggal"]}>23 Februari 2026</p>
           </div>
-          <p className="berita-deskripsi">
+          <p className={styles["berita-deskripsi"]}>
             Gereja Katolik Hati Kudus Yesus (HKY) Tomohon merupakan salah satu
             paroki Katolik tertua dan penting di wilayah Kota Tomohon, Sulawesi
             Utara. Perkembangan Gereja Katolik di Tomohon tidak terlepas dari
@@ -65,12 +60,12 @@ export default function BeritaPage() {
         </div>
       </div>
 
-      <div className="yellow-line-bold"></div>
+      <div className="yellowLineBold"></div>
 
-      <div className="sub-berita">
-        <h2 className="sub-berita-title">Berita Lainnya</h2>
+      <div className={styles["sub-berita"]}>
+        <h2 className={styles["sub-berita-title"]}>Berita Lainnya</h2>
 
-        <div className="sub-berita-section">
+        <div className={styles["sub-berita-section"]}>
           <TemplateSubBerita />
           <TemplateSubBerita />
           <TemplateSubBerita />

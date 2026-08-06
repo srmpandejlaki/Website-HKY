@@ -71,14 +71,14 @@
 }
 
 // jadwal - section
-.jadwalSection {
-  .jadwalList {
+.jadwal-section {
+  .jadwal-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
 
-    .jadwalItem {
+    .jadwal-item {
       display: flex;
       align-items: center;
       background-color: $secondary-color;

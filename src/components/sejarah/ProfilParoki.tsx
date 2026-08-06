@@ -1,14 +1,12 @@
 import Image from "next/image";
 
-/**
- * Komponen ProfilParoki
- * Menampilkan informasi profil paroki (nama, alamat, tahun berdiri, dll).
- */
+import styles from "@/styles/profil-sejarah.module.scss";
+
 export default function ProfilParoki() {
   return (
-    <div className="profil-paroki">
-      <div className="content-profil">
-        <h2 className="title">Profil Paroki Hati Kudus Yesus Tomohon</h2>
+    <div className={styles["profil-paroki"]}>
+      <div className={styles["content-profil"]}>
+        <h2 className={styles["title"]}>Profil Paroki Hati Kudus Yesus Tomohon</h2>
         <p>
           Nama Lengkap Paroki : Paroki Hati Kudus Yesus Tomohon
           <br />
@@ -29,7 +27,7 @@ export default function ProfilParoki() {
           Tahun Berdiri : 1875
         </p>
       </div>
-      <div className="image-profil">
+      <div className={styles["image-profil"]}>
         <Image
           src="/images/gereja-hky3.jpeg"
           alt="Profil Paroki Hati Kudus Yesus Tomohon"

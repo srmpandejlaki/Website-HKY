@@ -1,6 +1,8 @@
 import Image from "next/image";
 import TemplateSubSK from "@/components/sabda-kehidupan/TemplateSubSK";
 
+import styles from "@/styles/sabda-kehidupan.module.scss";
+
 /**
  * Halaman Sabda Kehidupan (/sabda-kehidupan)
  *
@@ -10,31 +12,31 @@ import TemplateSubSK from "@/components/sabda-kehidupan/TemplateSubSK";
  */
 export default function SabdaKehidupanPage() {
   return (
-    <div className="sabda-kehidupan-page">
-      <h2 className="sabda-kehidupan-title">Sabda Kehidupan</h2>
-      <div className="sabda-kehidupan-utama">
-        <div className="sabda-kehidupan-image">
+    <div className={styles["sabda-kehidupan-page"]}>
+      <h2 className={styles["sabda-kehidupan-title"]}>Sabda Kehidupan</h2>
+      <div className={styles["sabda-kehidupan-utama"]}>
+        <div className={styles["sabda-kehidupan-image"]}>
           <Image
             src="/images/foto-pastor.png"
             alt="Foto Pastor"
             width={200}
-            height={200}
+            height={330}
             style={{ borderRadius: "15rem", border: "3px solid #042572" }}
           />
         </div>
-        <div className="sabda-kehidupan-content">
-          <div className="sabda-kehidupan-header">
-            <h3 className="sabda-kehidupan-judul">Refleksi Harian</h3>
-            <p className="sabda-kehidupan-tanggal">23 Februari 2026</p>
+        <div className={styles["sabda-kehidupan-content"]}>
+          <div className={styles["sabda-kehidupan-header"]}>
+            <h3 className={styles["sabda-kehidupan-judul"]}>Refleksi Harian</h3>
+            <p className={styles["sabda-kehidupan-tanggal"]}>23 Februari 2026</p>
           </div>
-          <div className="sabda-kehidupan-main-content">
-            <p className="sabda-kehidupan-sub-judul">
+          <div className={styles["sabda-kehidupan-main-content"]}>
+            <p className={styles["sabda-kehidupan-sub-judul"]}>
               Peringatan St Polikarpus
             </p>
-            <p className="sabda-kehidupan-bacaan-injil">
+            <p className={styles["sabda-kehidupan-bacaan-injil"]}>
               Matius 25:45-46 (Mat 25:31-46)
             </p>
-            <p className="sabda-kehidupan-deskripsi">
+            <p className={styles["sabda-kehidupan-deskripsi"]}>
               &ldquo;Aku berkata kepadamu, sesungguhnya segala sesuatu yang tidak
               kamu lakukan untuk salah seorang dari yang paling hina ini, kamu
               tidak melakukannya juga untuk Aku. Dan mereka ini akan masuk ke
@@ -96,10 +98,10 @@ export default function SabdaKehidupanPage() {
 
       <div className="yellow-line-bold"></div>
 
-      <div className="sub-berita">
-        <h2 className="sub-berita-title">Artikel Lainnya</h2>
+      <div className={styles["sub-sabda-kehidupan"]}>
+        <h2 className={styles["sub-sabda-kehidupan-title"]}>Lainnya</h2>
 
-        <div className="sub-berita-section">
+        <div className={styles["sub-sabda-kehidupan-section"]}>
           <TemplateSubSK />
           <TemplateSubSK />
           <TemplateSubSK />

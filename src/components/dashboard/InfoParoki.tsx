@@ -1,11 +1,9 @@
-/**
- * Komponen InfoParoki
- * Menampilkan informasi/pengumuman terbaru paroki.
- */
+import styles from "@/styles/dashboard.module.scss";
+
 export default function InfoParoki() {
   return (
-    <div className="info-paroki-section">
-      <h2 className="title">Info Paroki</h2>
+    <div className={styles["infoParokiSection"]}>
+      <h2 className={styles["title"]}>Info Paroki</h2>
       <ol>
         <li>
           Pertemuan Lansia Paroki akan dilaksanakan pada tanggal 24 Maret 2026

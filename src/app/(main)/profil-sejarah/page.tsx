@@ -1,19 +1,14 @@
 import ProfilParoki from "@/components/sejarah/ProfilParoki";
 import SejarahParoki from "@/components/sejarah/SejarahParoki";
 
-/**
- * Halaman Profil & Sejarah (/profil-sejarah)
- *
- * Penjelasan:
- * - Nama folder "profil-sejarah" otomatis menjadi URL /profil-sejarah
- * - Komponen ProfilParoki dan SejarahParoki dipisah untuk modularitas
- */
+import styles from "@/styles/profil-sejarah.module.scss";
+
 export default function ProfilSejarahPage() {
   return (
-    <div className="profilsejarah-section">
+    <div className={styles["profilsejarah-section"]}>
       <ProfilParoki />
 
-      <div className="yellow-line-bold"></div>
+      <div className="yellowLineBold"></div>
 
       <SejarahParoki />
     </div>

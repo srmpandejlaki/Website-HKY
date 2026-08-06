@@ -1,13 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
 
-/**
- * Komponen Footer untuk bagian bawah website.
- *
- * Catatan:
- * - Ini adalah Server Component (tidak ada "use client")
- * - Server Component lebih ringan karena tidak mengirim JavaScript ke browser
- * - Cocok untuk komponen yang hanya menampilkan konten statis (tidak interaktif)
- */
 export default function Footer() {
   return (
     <footer className="footer">
@@ -23,15 +16,24 @@ export default function Footer() {
           Paroki Hati Kudus Yesus <br /> Tomohon
         </h4>
       </div>
-      <div className="middle-footer">
+      <div className="middleFooter">
         <div className="contacts">
           <p>
             Jl. Raya Tomohon, Kolongan, Kec. Tomohon Tengah, Kota Tomohon,
             Sulawesi Utara
           </p>
-          <p>Kode Pos: 99111</p>
-          <p>Tel: (0431) 123456</p>
-          <p>Email: info_hky.tomohon@go.id</p>
+          <p>
+            <span>Kode Pos</span>
+            <span>: 99111</span>
+          </p>
+          <p>
+            <span>Telp.</span>
+            <span>: (0431) 123456</span>
+          </p>
+          <p>
+            <span>Email</span>
+            <span>: info_hky.tomohon@go.id</span>
+          </p>
         </div>
         <div className="social-media">
           <p>Follow us on:</p>
@@ -66,7 +68,10 @@ export default function Footer() {
       </div>
       <div className="yellow-line"></div>
       <div className="copyright">
-        <p>&copy; 2026 Komsos HKY Tomohon</p>
+        <p>
+          &copy; 2026 
+          <Link href="/login"> Komsos HKY Tomohon</Link>
+        </p>
       </div>
     </footer>
   );

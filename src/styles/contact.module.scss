@@ -11,14 +11,29 @@
   &-main {
     display: flex;
     gap: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
+    
+    ul {
+      padding: 0;
+    }
+    li {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
   }
 
   &-number {
-    width: 500px;
+    width: 600px;
   }
 
-  &-medsos a {
-    color: $quaternary-color;
+  &-medsos {
+    a {
+      color: $quaternary-color;
+    }
+  }
+
+  &-number p, &-medsos p {
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 }

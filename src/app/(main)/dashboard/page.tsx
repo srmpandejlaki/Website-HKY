@@ -15,11 +15,10 @@ export default function DashboardPage() {
 
           <div className={styles.image}>
             <Image
-              src="/images/foto-pastor.png"
+              src="/images/foto-pastor-2.png"
               alt="Foto Pastor"
-              width={300}
-              height={550}
-              style={{ objectFit: "contain", height: "100%", width: "auto" }}
+              width={900}
+              height={900}
               priority
             />
           </div>

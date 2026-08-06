@@ -15,10 +15,15 @@
     padding: 1rem 5rem;
   }
 
-  &-image img {
-    border-radius: 15rem;
-    border: 3px solid $quaternary-color;
-    object-fit: cover;
+  &-image {
+    
+    img {
+      width: 200px;
+      height: 330px;
+      border-radius: 15rem;
+      border: 3px solid $quaternary-color;
+      object-fit: cover;
+    }
   }
 
   &-content {

@@ -43,6 +43,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <i className="fa-brands fa-facebook"></i>
               Facebook
             </a>
           </p>
@@ -52,6 +53,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <i className="fa-brands fa-instagram"></i>
               Instagram
             </a>
           </p>
@@ -61,6 +63,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <i className="fa-brands fa-youtube"></i>
               YouTube
             </a>
           </p>

@@ -1,0 +1,53 @@
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    text-align: center;
+  }
+
+  &-section {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid $tertiary-color;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.login-button {
+  @include button-style;
+  background-color: $quaternary-color;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+
+  a {
+    color: $primary-color;
+  }
+
+  &:hover {
+    background-color: $tertiary-color;
+  }
+}

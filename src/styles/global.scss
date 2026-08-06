@@ -72,6 +72,27 @@ p {
   width: 65px;
 }
 
+.social-media {
+  i {
+    width: 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
 /* ===== Dividers ===== */
 .yellowLine {
   height: 1px;
@@ -82,4 +103,9 @@ p {
   height: 1.3rem;
   background-color: $tertiary-color;
   padding: 0;
+}
+
+/* ===== Button ===== */
+.baseButton {
+  @include button-style;
 }

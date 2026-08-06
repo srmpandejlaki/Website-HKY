@@ -17,10 +17,10 @@ export default function SabdaKehidupanPage() {
       <div className={styles["sabda-kehidupan-utama"]}>
         <div className={styles["sabda-kehidupan-image"]}>
           <Image
-            src="/images/foto-pastor.png"
+            src="/images/foto-pastor-2.png"
             alt="Foto Pastor"
-            width={200}
-            height={330}
+            width={900}
+            height={900}
             style={{ borderRadius: "15rem", border: "3px solid #042572" }}
           />
         </div>

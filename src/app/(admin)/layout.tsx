@@ -11,7 +11,7 @@ export default function MainLayout({
     <>
       <Header />
       <div className="content">
-        <section>
+        <section className="sidebar">
           <h4 className="title">MENU</h4>
           <Navigation />
           <div className="overlay"></div>

@@ -40,6 +40,57 @@ p {
   gap: 10px;
 }
 
+.user {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  i {
+    font-size: 1.5rem;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin: 0;
+    }
+
+    .user-name {
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    .user-role {
+      font-size: 0.8rem;
+      color: $tertiary-color;
+    }
+  }
+}
+
+.logout-btn {
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $tertiary-color;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    a, i {
+      color: $secondary-color;
+    }
+  }
+}
+
 /* ===== Footer ===== */
 .footer {
   background-color: $secondary-color;
@@ -115,8 +166,8 @@ p {
   display: flex;
   gap: 1rem;
 
-  section {
-    width: 240px;
+  .sidebar {
+    width: 250px;
     background-image: url('/images/gereja-hky.jpeg');
     background-size: cover;
     background-position: center;
@@ -133,7 +184,7 @@ p {
     }
     
     .overlay {
-      width: 240px;
+      width: 250px;
       min-height: 90vh;
       position: absolute;
       // inset: 0;

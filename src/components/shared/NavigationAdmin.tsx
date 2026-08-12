@@ -8,25 +8,25 @@ export default function NavigationAdmin() {
     <nav className="navigation-admin">
       <ul>
         <li>
-          <a href="/admin/dashboard-admin" className={pathname === "/dashboard-admin" ? "active" : ""}><i className="fa-solid fa-house"></i>BERANDA</a>
+          <a href="/dashboard-admin" className={pathname === "/dashboard-admin" ? "active" : ""}><i className="fa-solid fa-house"></i>BERANDA</a>
         </li>
         <li>
-          <a href="/admin/jadwal" className={pathname === "/jadwal" ? "active" : ""}><i className="fa-solid fa-calendar"></i>JADWAL & INFO PAROKI</a>
+          <a href="/jadwal" className={pathname === "/jadwal" ? "active" : ""}><i className="fa-solid fa-calendar"></i>JADWAL & INFO PAROKI</a>
         </li>
         <li>
-          <a href="/admin/profil-dpp" className={pathname === "/profil-dpp" ? "active" : ""}><i className="fa-solid fa-user"></i>PROFIL DPP PAROKI</a>
+          <a href="/profil-dpp" className={pathname === "/profil-dpp" ? "active" : ""}><i className="fa-solid fa-user"></i>PROFIL DPP PAROKI</a>
         </li>
         <li>
-          <a href="/admin/data-statistik" className={pathname === "/data-statistik" ? "active" : ""}><i className="fa-solid fa-chart-bar"></i>DATA STATISTIK UMAT</a>
+          <a href="/data-statistik" className={pathname === "/data-statistik" ? "active" : ""}><i className="fa-solid fa-chart-bar"></i>DATA STATISTIK UMAT</a>
         </li>
         <li>
-          <a href="/admin/peta-umat" className={pathname === "/peta-umat" ? "active" : ""}><i className="fa-solid fa-map-marker-alt"></i>PETA UMAT PAROKI</a>
+          <a href="/peta-umat" className={pathname === "/peta-umat" ? "active" : ""}><i className="fa-solid fa-map-marker-alt"></i>PETA UMAT PAROKI</a>
         </li>
         <li>
-          <a href="/admin/berita-sabda" className={pathname === "/berita-sabda" ? "active" : ""}><i className="fa-solid fa-newspaper"></i>BERITA & <br />SABDA KEHIDUPAN</a>
+          <a href="/berita-sabda" className={pathname === "/berita-sabda" ? "active" : ""}><i className="fa-solid fa-newspaper"></i>BERITA & <br />SABDA KEHIDUPAN</a>
         </li>
         <li>
-          <a href="/admin/settings" className={pathname === "/settings" ? "active" : ""}><i className="fa-solid fa-cog"></i>PENGATURAN</a>
+          <a href="/settings" className={pathname === "/settings" ? "active" : ""}><i className="fa-solid fa-cog"></i>PENGATURAN</a>
         </li>
       </ul>
     </nav>

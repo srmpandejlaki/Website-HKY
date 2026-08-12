@@ -3,13 +3,6 @@ import TemplateSubSK from "@/components/sabda-kehidupan/TemplateSubSK";
 
 import styles from "@/styles/sabda-kehidupan.module.scss";
 
-/**
- * Halaman Sabda Kehidupan (/sabda-kehidupan)
- *
- * Penjelasan:
- * - Menampilkan refleksi harian dan daftar artikel lainnya
- * - Reuse komponen TemplateSubSK untuk daftar artikel
- */
 export default function SabdaKehidupanPage() {
   return (
     <div className={styles["sabda-kehidupan-page"]}>

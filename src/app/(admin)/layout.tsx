@@ -1,5 +1,6 @@
-import Header from "@/components/shared/Header";
+import Header from "@/components/shared/HeaderAdmin";
 import Footer from "@/components/shared/Footer";
+import Navigation from "@/components/shared/NavigationAdmin";
 
 export default function MainLayout({
   children,
@@ -9,7 +10,14 @@ export default function MainLayout({
   return (
     <>
       <Header />
-      {children}
+      <div className="content">
+        <section>
+          <h4 className="title">MENU</h4>
+          <Navigation />
+          <div className="overlay"></div>
+        </section>
+        {children}
+      </div>
       <Footer />
     </>
   );

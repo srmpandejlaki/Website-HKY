@@ -20,7 +20,7 @@ p {
 }
 
 /* ===== Header ===== */
-.header {
+.header, .header-admin {
   background-color: $secondary-color;
   color: $tertiary-color;
   height: 75px;
@@ -108,4 +108,36 @@ p {
 /* ===== Button ===== */
 .baseButton {
   @include button-style;
+}
+
+/* ===== Admin ===== */
+.content {
+  display: flex;
+  gap: 1rem;
+
+  section {
+    width: 240px;
+    background-image: url('/images/gereja-hky.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    border-right: 8px solid $tertiary-color;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .title {
+      text-align: center;
+      z-index: 10;
+    }
+    
+    .overlay {
+      width: 240px;
+      min-height: 90vh;
+      position: absolute;
+      // inset: 0;
+      background: rgba(255, 255, 255, 0.618); // putih transparan
+    }
+  }
 }

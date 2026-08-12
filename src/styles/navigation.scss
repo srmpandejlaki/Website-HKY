@@ -28,3 +28,35 @@
     }
   }
 }
+
+// navigation styles for admin
+.navigation-admin {
+  width: 100%;
+  z-index: 10;
+
+  li {
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+
+  i {
+    width: 10px;
+  }
+
+  a {
+    color: $quaternary-color;
+    font-size: 0.9rem;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+    
+    &.active {
+      font-weight: bold;
+    }
+  }
+}

@@ -2,12 +2,6 @@
 @use './abstracts/variables' as *;
 
 .contact {
-  &-section {
-    padding: 0 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-
   &-main {
     display: flex;
     gap: 2rem;

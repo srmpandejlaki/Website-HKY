@@ -5,7 +5,7 @@ import styles from "@/styles/sabda-kehidupan.module.scss";
 
 export default function SabdaKehidupanPage() {
   return (
-    <div className={styles["sabda-kehidupan-page"]}>
+    <div className="main-section">
       <h2 className={styles["sabda-kehidupan-title"]}>Sabda Kehidupan</h2>
       <div className={styles["sabda-kehidupan-utama"]}>
         <div className={styles["sabda-kehidupan-image"]}>

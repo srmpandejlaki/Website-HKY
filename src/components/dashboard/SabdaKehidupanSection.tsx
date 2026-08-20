@@ -5,27 +5,34 @@
  * Ini adalah Server Component — tidak perlu "use client" karena
  * hanya menampilkan konten statis tanpa interaktivitas.
  */
+
+import styles from "@/styles/dashboard.module.scss";
+
 export default function SabdaKehidupanSection() {
   return (
-    <section className="sabda-kehidupan-section">
-      <div className="layer-pertama">
+    <section className={styles["sabda-kehidupan-section"]}>
+      <div className={styles["layer-pertama"]}>
         <div>
-          <h2 className="section-title">Sabda Kehidupan</h2>
+          <h2 className={styles["section-title"]}>Sabda Kehidupan</h2>
           <p>Minggu 22 Februari 2026 | Minggu Pra-Paskah I</p>
         </div>
-        <p className="header-sabda-kehidupan">
+        <p className={styles["header-sabda-kehidupan"]}>
           Cinta Kepada Allah Menguatkan Kita Menolak Godaan Iblis
         </p>
       </div>
-      <div className="layer-kedua">
+      <div className={styles["layer-kedua"]}>
         <p>
-          Maka berkatalah Yesus kepadanya: &quot;Enyahlah, Iblis! Sebab ada
-          tertulis: Engkau harus menyembah Tuhan, Allahmu, dan hanya kepada Dia
-          sajalah engkau berbakti!&quot;
+          <span>
+            Maka berkatalah Yesus kepadanya: &quot;Enyahlah, Iblis! Sebab ada
+            tertulis: Engkau harus menyembah Tuhan, Allahmu, dan hanya kepada Dia
+            sajalah engkau berbakti!&quot;
+          </span>
+          <span>  
+            Matius 4:10 (Mat 4:1-11)
+          </span>
         </p>
-        <p>Matius 4:10 (Mat 4:1-11)</p>
       </div>
-      <p className="text">
+      <p className={styles["text"]}>
         Bacaan Injil hari ini mengisahkan pencobaan Yesus oleh Iblis di padang
         gurun. Dalam keadaan yang sangat lapar sesudah berpuasa 40 hari, Yesus
         digoda untuk menggunakan kuasa dan kemampuan yang ada padaNya sebagai
@@ -44,6 +51,18 @@ export default function SabdaKehidupanSection() {
         tapi Ia memilih untuk solider dengan kita manusia yang lemah dan rapuh,
         daripada hidup sebagai manusia super yang bebas dari kerja keras serta
         susah dan derita.
+        <br />
+        <br />
+        Yesus memilih untuk ikut bersusah payah bekerja bersama kita, memikul
+        beban kehidupan, ikut sakit dan terluka, daripada berjalan sendiri tanpa
+        rintangan. Yesus tak pernah mau terlepas dari cinta BapaNya, sekalipun
+        salib, sengsara dan kematian menjadi konsekwensinya. Yesus tak pernah
+        kekurangan cinta BapaNya. Ia tak perlu memuaskan laparNya sendiri. Ia
+        tak perlu membuktikan kehebatanNya di hadapan Iblis dengan mencobai
+        kecintaan Bapa kepadaNya. Yesus tak perlu menguasai semua kerajaan di
+        dunia karena semua kuasa di surga dan di dunia telah diserahkan Bapa
+        kepadaNya. Maka Yesus dengan tegas mengusir Iblis yang ingin memisahkan
+        Dia dari cintaNya kepada BapaNya.
         <br />
         <br />
         Yesus memilih untuk ikut bersusah payah bekerja bersama kita, memikul

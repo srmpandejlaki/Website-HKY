@@ -1,7 +1,11 @@
 @use './abstracts/variables' as *;
 @use './abstracts/mixins' as *;
 
-.heroSection {
+.main-page {
+  color: $quaternary-color;
+}
+
+.hero-section {
   position: relative;
   background-image: url('/images/gereja-hky3.jpeg');
   background-size: cover;
@@ -10,7 +14,7 @@
   color: $quaternary-color;
 
   // biar tinggi fleksibel
-  min-height: 300px;
+  min-height: 50vh;
 
   .overlay {
     position: absolute;
@@ -23,43 +27,55 @@
 .content {
   position: relative; // biar di atas overlay
   display: flex;
-  justify-content: space-between;
   gap: 50px;
-  align-items: stretch;
   height: 100%;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
   overflow-x: hidden;
+  align-items: stretch;
 
   .image {
     width: 25%;
+    height: fit-content;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
 
     img {
-      height: 100%;
-      max-height: 550px;
+      max-height: 30rem;
       object-fit: contain; // biar ga kepotong
     }
   }
 }
 
-.layerPertama {
+.sabda-kehidupan-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.layer-pertama {
   display: flex;
   justify-content: space-between;
 
   div h2 {
     color: $secondary-color;
-    margin-bottom: 0;
   }
 
-  div p {
-    margin: 0;
-  }
-
-  .headerSabdaKehidupan {
+  .header-sabda-kehidupan {
     font-weight: bold;
     padding-top: 0.5rem;
+  }
+}
+
+.layer-kedua p {
+  display: flex;
+  flex-direction: column;
+  
+  span:first-child {
+    font-weight: bold;
+  }
+  span:last-child {
+    text-align: right;
   }
 }
 
@@ -90,13 +106,11 @@
       h3 {
         font-size: 1rem;
         color: $tertiary-color;
-        margin: 0;
       }
 
       p {
         font-size: 0.8rem;
         color: $tertiary-color;
-        margin: 0;
       }
     }
 

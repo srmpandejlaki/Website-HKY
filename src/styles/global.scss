@@ -3,11 +3,10 @@
 @use './base/texts';
 
 /* ===== Reset & Base ===== */
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: $quaternary-color;
 }
 
 a {
@@ -17,6 +16,16 @@ a {
 
 p {
   font-size: 0.9rem;
+}
+
+.main-section {
+  color: $quaternary-color;
+  padding-top: 2rem;
+}
+.contact {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ===== Header ===== */
@@ -92,7 +101,7 @@ p {
 }
 
 /* ===== Footer ===== */
-.footer {
+footer {
   background-color: $secondary-color;
   color: $tertiary-color;
   padding: 10px 20px;
@@ -162,7 +171,7 @@ p {
 }
 
 /* ===== Admin ===== */
-.content {
+.main {
   display: flex;
   gap: 1rem;
 
@@ -190,5 +199,9 @@ p {
       // inset: 0;
       background: rgba(255, 255, 255, 0.618); // putih transparan
     }
+  }
+
+  .greeting {
+
   }
 }

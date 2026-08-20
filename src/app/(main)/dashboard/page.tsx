@@ -6,8 +6,8 @@ import styles from "@/styles/dashboard.module.scss";
 
 export default function DashboardPage() {
   return (
-    <section className={styles.mainSection}>
-      <div className={styles.heroSection}>
+    <section className="main-page">
+      <div className={styles["hero-section"]}>
         <div className={styles.overlay}></div>
 
         <div className={styles.content}>

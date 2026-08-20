@@ -5,7 +5,7 @@ import styles from "@/styles/profil-sejarah.module.scss";
 
 export default function ProfilSejarahPage() {
   return (
-    <div className={styles["profilsejarah-section"]}>
+    <div className="main-section">
       <ProfilParoki />
 
       <div className="yellowLineBold"></div>

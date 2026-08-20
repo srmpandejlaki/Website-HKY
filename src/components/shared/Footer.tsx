@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer>
       <div className="logo">
         <Image
           src="/images/logo-hky-tomohon.png"

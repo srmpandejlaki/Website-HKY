@@ -5,7 +5,7 @@ import styles from "@/styles/berita.module.scss";
 
 export default function BeritaPage() {
   return (
-    <div className={styles["berita-page"]}>
+    <div className="main-section">
       <h2 className={styles["berita-title"]}>Berita Paroki</h2>
       <div className={styles["berita-utama"]}>
         <div className={styles["berita-image"]}>

@@ -2,7 +2,7 @@ import styles from "@/styles/contact.module.scss";
 
 export default function ContactPage() {
   return (
-    <div className={styles["contact-section"]}>
+    <div className="main-section contact">
       <h2 className={styles["contact-title"]}>Hubungi Kami</h2>
       <div className={styles["contact-main"]}>
         <div className={styles["contact-number"]}>

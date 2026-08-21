@@ -6,7 +6,7 @@ import styles from "@/styles/dashboard.module.scss";
 
 export default function DashboardPage() {
   return (
-    <section className="main-page">
+    <section className={styles["main-page"]}>
       <div className={styles["hero-section"]}>
         <div className={styles.overlay}></div>
 
@@ -15,7 +15,7 @@ export default function DashboardPage() {
 
           <div className={styles.image}>
             <Image
-              src="/images/foto-pastor-2.png"
+              src="/images/foto-pastor.png"
               alt="Foto Pastor"
               width={900}
               height={900}

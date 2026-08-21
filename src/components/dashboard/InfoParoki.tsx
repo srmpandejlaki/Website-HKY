@@ -2,7 +2,7 @@ import styles from "@/styles/dashboard.module.scss";
 
 export default function InfoParoki() {
   return (
-    <div className={styles["infoParokiSection"]}>
+    <div className={styles["info-paroki-section"]}>
       <h2 className={styles["title"]}>Info Paroki</h2>
       <ol>
         <li>

@@ -65,18 +65,6 @@ export default function SabdaKehidupanSection() {
         Dia dari cintaNya kepada BapaNya.
         <br />
         <br />
-        Yesus memilih untuk ikut bersusah payah bekerja bersama kita, memikul
-        beban kehidupan, ikut sakit dan terluka, daripada berjalan sendiri tanpa
-        rintangan. Yesus tak pernah mau terlepas dari cinta BapaNya, sekalipun
-        salib, sengsara dan kematian menjadi konsekwensinya. Yesus tak pernah
-        kekurangan cinta BapaNya. Ia tak perlu memuaskan laparNya sendiri. Ia
-        tak perlu membuktikan kehebatanNya di hadapan Iblis dengan mencobai
-        kecintaan Bapa kepadaNya. Yesus tak perlu menguasai semua kerajaan di
-        dunia karena semua kuasa di surga dan di dunia telah diserahkan Bapa
-        kepadaNya. Maka Yesus dengan tegas mengusir Iblis yang ingin memisahkan
-        Dia dari cintaNya kepada BapaNya.
-        <br />
-        <br />
         Selamat Hari Minggu Prapaskah I. Mari menyembah Tuhan di baitNya yang
         kudus.🙏❤️😇 <br />
         Ps Revi Tanod Pr
